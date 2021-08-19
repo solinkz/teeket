@@ -1,12 +1,23 @@
 .hero{
-    background-image: linear-gradient(to left, rgba($white, .8), rgba($white, .8)), url('../img/world-svg.svg');
+    background-image:  url('../img/home-bg.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: right center;
     height: calc(100vh - #{$nav-height});
     display: flex;
     align-items: center;
-
+    
     h1,p{
         margin-bottom: 2rem;
     }
+}
+
+.hero-sub{
+    background-image:  url('../img/nomi-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    height: calc(100vh - #{$nav-height});
+    padding: 7rem 0;
+
 }

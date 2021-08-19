@@ -7550,7 +7550,8 @@ p {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: 1rem; }
 
 .auth-container {
   width: 400px; }
@@ -7563,6 +7564,12 @@ p {
     border: 1px solid #222222;
     font-weight: 400; }
 
+.auth-contest {
+  padding: 3rem 2rem;
+  border: 1px solid #e9ecef;
+  border-radius: 1.5rem;
+  background-color: #ffffff; }
+
 .btn {
   font-weight: 600; }
   .btn-sm, .btn-group-sm > .btn {
@@ -7570,10 +7577,27 @@ p {
   .btn-secondary {
     background-color: #E9FBF6;
     color: #20C997;
-    border: none; }
+    border: 1px solid rgba(32, 201, 151, 0.3); }
     .btn-secondary:hover {
       background-color: #20C997;
       color: #ffffff; }
+
+.contest-brand {
+  display: block;
+  margin-bottom: 4rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none; }
+  .contest-brand:hover {
+    text-decoration: underline;
+    color: #ffffff; }
+  .contest-brand img {
+    object-fit: cover;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: .5rem; }
 
 .footer-menu {
   display: flex;
@@ -7591,14 +7615,23 @@ p {
     color: rgba(255, 255, 255, 0.6); }
 
 .hero {
-  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/world-svg.svg");
+  background-image: url("../img/home-bg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: right center;
   height: calc(100vh - 6.25rem);
   display: flex;
   align-items: center; }
   .hero h1, .hero .h1, .hero p {
     margin-bottom: 2rem; }
+
+.hero-sub {
+  background-image: url("../img/nomi-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  height: calc(100vh - 6.25rem);
+  padding: 7rem 0; }
 
 .navbar {
   background-color: #ffffff;

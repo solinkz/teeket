@@ -1,7 +1,7 @@
 .btn{
 
     font-weight: 600;
-    
+
     &-sm{
         font-size: .9rem  !important;
     }
@@ -9,7 +9,7 @@
     &-secondary{
         background-color: $light;
         color: $primary;
-        border: none;
+        border: 1px solid rgba($primary, .3);
 
         &:hover{
             background-color: $primary;

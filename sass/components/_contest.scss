@@ -1,0 +1,26 @@
+.contest{
+
+
+    &-brand{
+        display: block;
+        margin-bottom: 4rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        color: $white;
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: underline;
+            color: $white;
+        }
+        img{
+            object-fit: cover;
+            width: 3.2rem;
+            height: 3.2rem;
+            border-radius: .5rem;
+        }
+    }
+    
+    
+}
