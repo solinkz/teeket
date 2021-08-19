@@ -57,20 +57,33 @@
                             </div>
                         </div>
                    </div>
-                   <div class="col-lg-4 offset-lg-1">
+                   <div class="col-lg-5">
                         <div class="auth-contest">
-                            <p class="mb-3">We need your information to enable us know who are the persons nominating</p>
+                            <div class="d-flex gap-3 mb-4">
+                                <span>
+                                  <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle opacity="0.2" cx="23" cy="23" r="23" fill="#F2C94C"/>
+                                    <path d="M23 34C28.5 34 33 29.5 33 24C33 18.5 28.5 14 23 14C17.5 14 13 18.5 13 24C13 29.5 17.5 34 23 34Z" stroke="#F2C94C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M23 20V25" stroke="#F2C94C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.9945 28H23.0035" stroke="#F2C94C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                      
+                                </span>
+                                <span class="">Choose a category and write the Full name of the person you want to nominate</span>
+                              </div>
                             <form action="">
                                 <div class="mb-3">
-                                    <label for="name" class="form-label">Full name</label>
-                                    <input type="text" class="form-control" id="name" placeholder="">
+                                    <label for="category" class="form-label">Contest Category</label>
+                                    <select name="category" id="category" class="form-select">
+                                      <option value="">Select a category</option>
+                                    </select>
                                 </div>
-                                <div class="mb-5">
-                                    <label for="email" class="form-label">Email address</label>
-                                    <input type="email" class="form-control" id="name" placeholder="">
+                                <div class="mb-3">
+                                  <label for="name" class="form-label">Full name</label>
+                                  <input type="text" class="form-control" id="name" placeholder="">
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Continue</button>
+                                <button type="submit" class="btn btn-primary">Nominate</button>
                             </form>
                         </div>
                    </div>

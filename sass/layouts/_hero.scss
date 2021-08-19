@@ -3,10 +3,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
-    height: calc(100vh - #{$nav-height});
     display: flex;
     align-items: center;
     
+    @include respond(tab){
+        height: calc(100vh - #{$nav-height});
+    }
+
     h1,p{
         margin-bottom: 2rem;
     }
@@ -17,7 +20,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
-    height: calc(100vh - #{$nav-height});
+    // height: calc(100vh - #{$nav-height});
     padding: 7rem 0;
 
+    @include respond(tab){
+        height: calc(100vh - #{$nav-height});
+    }
 }
