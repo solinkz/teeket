@@ -5,6 +5,7 @@
     background-position: right center;
     display: flex;
     align-items: center;
+    padding: 6rem 0;
     
     @include respond(tab){
         height: calc(100vh - #{$nav-height});
@@ -25,5 +26,17 @@
 
     @include respond(tab){
         height: calc(100vh - #{$nav-height});
+    }
+}
+.hero-half{
+    background-image:  url('../img/nomi-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    // height: calc(100vh - #{$nav-height});
+    padding: 7rem 0;
+
+    @include respond(tab){
+        height: calc(70vh - #{$nav-height});
     }
 }

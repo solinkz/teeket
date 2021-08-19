@@ -7629,7 +7629,8 @@ p {
   background-size: cover;
   background-position: right center;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  padding: 6rem 0; }
   @media (min-width: 48em) {
     .hero {
       height: calc(100vh - 6.25rem); } }
@@ -7645,6 +7646,16 @@ p {
   @media (min-width: 48em) {
     .hero-sub {
       height: calc(100vh - 6.25rem); } }
+
+.hero-half {
+  background-image: url("../img/nomi-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  padding: 7rem 0; }
+  @media (min-width: 48em) {
+    .hero-half {
+      height: calc(70vh - 6.25rem); } }
 
 .navbar {
   background-color: #ffffff;
