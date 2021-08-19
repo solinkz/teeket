@@ -1,0 +1,27 @@
+.auth{
+    &-flex{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-container{
+        width: 400px;
+    }
+
+    &-wrapper{
+        padding: 2rem;
+        border: 1px solid $gray-200;
+        border-radius: 1.5rem;
+
+        .btn-auth-google{
+            border: 1px solid $dark;
+            // color: #D43B0B;
+            font-weight: 400;
+
+        }
+    }
+   
+}

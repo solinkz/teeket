@@ -1,0 +1,78 @@
+.split-part{
+    img.brand{
+        margin-bottom: 4rem;
+    }
+
+    &-left{
+        h3{
+            margin-bottom: 2rem;
+        }
+        p{
+            margin-bottom: 4rem;
+        }
+    }
+
+    &-right{
+        background-color: $dark;
+        color: $white;
+        padding: 4rem 2rem;
+        border-radius: 1rem;
+        @include respond(desktop){
+            position: absolute;
+            padding: 4rem 5rem;
+            right: 0;
+            width: 60%;
+            border-radius: 2rem 0 0 2rem;
+
+        }
+
+        h3, p{
+            color: $white;
+        }
+        h3{
+            margin-bottom: 4rem;
+        }
+
+        .icon{
+            width: 4rem;
+            height: 4rem;
+            background-color: $white;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            margin-bottom: 1rem;
+        }
+    }
+}
+
+.split-img{
+    &-1{
+        padding-bottom: 20rem;
+    }
+    &-2{
+        margin-top: -18rem;
+    }
+    .brand{
+        margin-bottom: 2rem;
+    }
+    .smaller-img,
+    .large-img{
+        border-radius: 1rem;
+        display: none;
+
+        @include respond(desktop){
+            display: block;
+        }
+    }
+    .smaller-img{
+        margin-bottom: 2rem;
+    }
+    .large-img {
+        img{
+            width: 100%;
+        }
+    }
+    h3,p{
+        margin-bottom: 2rem;
+    }
+}

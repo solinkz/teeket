@@ -1,0 +1,29 @@
+{
+  "name": "crypteller",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solinkz/crypteller.git"
+  },
+  "keywords": [
+    "Crypto"
+  ],
+  "author": "Solomon Eyitene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solinkz/crypteller/issues"
+  },
+  "homepage": "https://github.com/solinkz/crypteller#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "sal.js": "^0.8.5"
+  }
+}

@@ -1,0 +1,60 @@
+.navbar{
+    background-color: $white;
+    height: $nav-height;
+    position: relative;
+
+    &-content{
+        width: 100%;
+        
+        @include respond(desktop){
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }   
+    .nav-collapsable{
+        position: absolute;
+        width: 100%;
+        top: $nav-height;
+        z-index: 10;
+        background-color: $white;
+        left: 0;
+        display: none;
+        @include respond(desktop){
+            background-color:transparent;
+            top: 0;
+        
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    &-menu{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: $font-size-base;
+        padding-left: 1rem;
+        // width: 100%;
+        
+        
+        @include respond(desktop){
+            flex-direction: row;
+            padding-left: 2rem;
+        }
+        a.dropdown{
+            text-decoration: none;
+            font-size: $font-size-md;
+            font-weight: 500;
+            color: $text-light;
+            transition: .3s all;
+
+            &:hover{
+                color: $text;
+                font-weight: 600;
+            }
+        }
+       
+    }
+}

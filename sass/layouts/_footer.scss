@@ -1,0 +1,24 @@
+.footer{
+    &-menu{
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        @include respond(tab){
+            justify-content: space-between;
+
+        }
+        ul{
+            h5{
+                font-size: 1rem;
+                color: $white;
+            }
+
+            .nav-link{
+                font-size: $font-size-sm;
+                padding-left: 0;
+                color: rgba($white, .6);
+                
+            }
+        }
+    }
+}
