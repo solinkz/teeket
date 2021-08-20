@@ -35,6 +35,14 @@
                 object-fit: cover;
             }
         }
+        &.sized{
+            margin-bottom: 1rem;
+            img{
+                width: 350px;
+                height: 350px;
+                object-fit: cover;
+            }
+        }
     }
     
     

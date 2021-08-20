@@ -31,12 +31,13 @@
 .hero-half{
     background-image:  url('../img/nomi-bg.jpg');
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     background-position: right center;
     // height: calc(100vh - #{$nav-height});
     padding: 7rem 0;
 
     @include respond(tab){
-        height: calc(70vh - #{$nav-height});
+        // height: calc(90vh - #{$nav-height});
     }
 }
