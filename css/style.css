@@ -7614,6 +7614,26 @@ p {
       height: 350px;
       object-fit: cover; }
 
+.contestants-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; }
+  .contestants-info.small {
+    flex-direction: row;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px dashed #ffffff;
+    backdrop-filter: blur(4px);
+    margin-bottom: 1rem; }
+    .contestants-info.small h6, .contestants-info.small .h6 {
+      font-weight: 500;
+      margin-bottom: 0; }
+    .contestants-info.small img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover; }
+
 .footer-menu {
   display: flex;
   gap: 2rem;

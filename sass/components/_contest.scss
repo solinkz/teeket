@@ -47,3 +47,30 @@
     
     
 }
+
+.contestants-info{
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    &.small{
+        flex-direction: row;
+        padding: 1rem;
+        border-radius: .5rem;
+        background-color: rgba($white, .1);
+        border: 1px dashed $white;
+        backdrop-filter: blur(4px);
+        margin-bottom: 1rem;
+        
+        h6{
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+
+        img{
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+        }
+    }
+}
