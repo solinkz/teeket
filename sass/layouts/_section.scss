@@ -1,4 +1,33 @@
 .section{
     padding: 10rem 0;
     position: relative;
+
+
+    &.service{
+
+        .service-list{
+            text-align: center;
+            color: $white;
+            background-color: rgba($white, .1);
+            border: 1px dashed  $white;
+            backdrop-filter: blur(4px);
+            padding: .5rem 1rem;
+
+            h4{ color: $white;}
+            
+            .service-count{
+                font-size: 60px;
+                font-weight: 700;
+                color: rgba($white, .3);
+            }
+            p{
+                color: $white;
+            }
+
+        }
+        
+
+    }
 }
+
+

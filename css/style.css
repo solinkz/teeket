@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 /*!
  * Bootstrap v5.0.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7522,20 +7523,29 @@ body {
   background-color: #fff;
   font-family: 'Poppins', sans-serif; }
 
-h1 .h1, .h1 .h1 {
-  font-size: 3.2rem; }
+h1, .h1, .h1 {
+  font-family: "poppins", serif; }
+  @media (min-width: 48em) {
+    h1, .h1, .h1 {
+      font-size: 3.2rem; } }
 
-h2 .h2, .h2 .h2 {
-  font-size: 2.25rem; }
+h2, .h2, .h2 {
+  font-size: 2.25rem;
+  font-family: "poppins", serif; }
 
-h3 .h3, .h3 .h3 {
-  font-size: 1.75rem; }
+h3, .h3, .h3 {
+  font-size: 1.75rem;
+  font-family: "poppins", serif; }
 
-h4 .h4, .h4 .h4 {
+h4, .h4, .h4 {
   font-size: 1.3rem; }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+h1, .h1, h2, .h2 {
   font-weight: 700;
+  color: #222222; }
+
+h3, .h3, h4, .h4 {
+  font-weight: 600;
   color: #222222; }
 
 p {
@@ -7609,6 +7619,9 @@ p {
       object-fit: cover; }
   .contest-brand.sized {
     margin-bottom: 1rem; }
+    .contest-brand.sized:hover {
+      text-decoration: none;
+      color: #ffffff; }
     .contest-brand.sized img {
       width: 100%;
       height: 350px;
@@ -7637,20 +7650,40 @@ p {
       height: 60px;
       object-fit: cover; }
 
-.footer-menu {
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap; }
-  @media (min-width: 48em) {
-    .footer-menu {
-      justify-content: space-between; } }
-  .footer-menu ul h5, .footer-menu ul .h5 {
-    font-size: 1rem;
-    color: #ffffff; }
-  .footer-menu ul .nav-link {
-    font-size: 0.75rem;
-    padding-left: 0;
-    color: rgba(255, 255, 255, 0.6); }
+.event-list {
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  border-radius: .5rem;
+  margin-bottom: 1rem; }
+  .event-list .by {
+    font-size: .8rem; }
+
+.event-img {
+  height: 165px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: .5rem .5rem 0 0; }
+
+.event-description {
+  padding: 1rem; }
+
+.footer {
+  padding: 3rem 0; }
+  .footer p {
+    color: rgba(255, 255, 255, 0.8); }
+  .footer-menu {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap; }
+    @media (min-width: 48em) {
+      .footer-menu {
+        justify-content: space-between; } }
+    .footer-menu ul h5, .footer-menu ul .h5 {
+      font-size: 1rem;
+      color: #ffffff; }
+    .footer-menu ul .nav-link {
+      font-size: 0.75rem;
+      padding-left: 0;
+      color: rgba(255, 255, 255, 0.6); }
 
 .hero {
   background-image: url("../img/home-bg.jpg");
@@ -7736,6 +7769,21 @@ p {
 .section {
   padding: 10rem 0;
   position: relative; }
+  .section.service .service-list {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px dashed #ffffff;
+    backdrop-filter: blur(4px);
+    padding: .5rem 1rem; }
+    .section.service .service-list h4, .section.service .service-list .h4 {
+      color: #ffffff; }
+    .section.service .service-list .service-count {
+      font-size: 60px;
+      font-weight: 700;
+      color: rgba(255, 255, 255, 0.3); }
+    .section.service .service-list p {
+      color: #ffffff; }
 
 .split-part img.brand {
   margin-bottom: 4rem; }
