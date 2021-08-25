@@ -7608,6 +7608,9 @@ p {
     width: 3.2rem;
     height: 3.2rem;
     border-radius: .5rem; }
+    .contest-brand img.lg {
+      width: 9rem;
+      height: 9rem; }
   .contest-brand.big {
     display: flex;
     gap: 1rem;

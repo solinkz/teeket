@@ -19,6 +19,10 @@
             width: 3.2rem;
             height: 3.2rem;
             border-radius: .5rem;
+            &.lg{
+                width: 9rem;
+                height: 9rem;
+            }
         }
 
 
@@ -80,6 +84,7 @@
             width: 60px;
             height: 60px;
             object-fit: cover;
+        
         }
     }
 }
