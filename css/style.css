@@ -7669,6 +7669,14 @@ p {
 .event-description {
   padding: 1rem; }
 
+.progress {
+  flex: 1; }
+  .progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .8rem; }
+
 .footer {
   padding: 3rem 0; }
   .footer p {
